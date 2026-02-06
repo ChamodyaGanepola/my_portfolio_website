@@ -258,17 +258,22 @@ nav ul li a:hover::after {
     width: 300px;
     /* optional: fix width for uniformity */
     height: 200px;
+    /* fix height for uniformity */
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* fix height for uniformity */
+    margin-bottom: 30px;
+    /* space between projects */
 }
 
 
-.work-actions {
+.work-links {
     margin-top: 12px;
     display: flex;
-    gap: 14px;
+    gap: 16px;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* mobile-friendly */
 }
 
 .work-btn {
@@ -281,10 +286,9 @@ nav ul li a:hover::after {
     color: #A020F0;
 
     border-radius: 4px;
-    /* sharp, not round */
+    /* sharp rectangle, not round */
     text-decoration: none;
     white-space: nowrap;
-
     transition: all 0.3s ease;
 }
 
