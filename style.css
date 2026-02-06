@@ -268,34 +268,29 @@ nav ul li a:hover::after {
 
 
 .work-links {
-    margin-top: 12px;
     display: flex;
     gap: 16px;
     justify-content: center;
-    flex-wrap: wrap;
-    /* mobile-friendly */
+    margin-bottom: 40px; /* space between projects */
 }
 
 .work-btn {
     padding: 10px 24px;
     font-size: 14px;
     font-weight: 500;
-
     border: 1.5px solid #A020F0;
+    border-radius: 4px;  /* not round */
     background: transparent;
     color: #A020F0;
-
-    border-radius: 4px;
-    /* sharp rectangle, not round */
     text-decoration: none;
-    white-space: nowrap;
     transition: all 0.3s ease;
 }
 
 .work-btn:hover {
     background: #A020F0;
-    color: #ffffff;
+    color: #fff;
 }
+
 
 .work img {
     width: 100%;
