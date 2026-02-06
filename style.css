@@ -240,6 +240,26 @@ nav ul li a:hover::after{
     display: block;
     transition: transform 0.5s;
 }
+.work-links {
+    display: flex;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.work-btn {
+    padding: 8px 16px;
+    border: 1px solid #fff;
+    border-radius: 6px;
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    transition: all 0.3s ease;
+}
+
+.work-btn:hover {
+    background: #fff;
+    color: #A020F0;
+}
 
 .layer{
     width: 100%;
