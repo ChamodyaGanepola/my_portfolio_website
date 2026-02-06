@@ -242,22 +242,33 @@ nav ul li a:hover::after{
 }
 .work-links {
     display: flex;
-    gap: 15px;
-    margin-top: 15px;
+    gap: 16px;
+    margin-top: 18px;
+    justify-content: center;
 }
 
 .work-btn {
-    padding: 8px 16px;
-    border: 1px solid #fff;
-    border-radius: 6px;
-    color: white;
-    text-decoration: none;
+    display: inline-block;
+
+    padding: 10px 22px;
     font-size: 14px;
+    font-weight: 500;
+
+    border: 1px solid #ffffff;
+    border-radius: 4px;        /* NOT round */
+    background: transparent;
+    color: #ffffff;
+
+    text-decoration: none;
+    text-align: center;
+    white-space: nowrap;       /* fix text crop */
+    line-height: 1.2;
+
     transition: all 0.3s ease;
 }
 
 .work-btn:hover {
-    background: #fff;
+    background: #ffffff;
     color: #A020F0;
 }
 
